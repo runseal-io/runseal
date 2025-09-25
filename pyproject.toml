@@ -1,0 +1,10 @@
+[project]
+name = "runseal"
+version = "0.0.1"
+description = "RunSeal CLI/SDK — tamper-evident compute receipts"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+runseal = "runseal.__main__:main"
